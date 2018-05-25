@@ -1,9 +1,17 @@
-01 - Randomly Moving Spheres
----
-
+# 01 - Randomly Moving Spheres #
 Creating an arbitrary amount of spheres that moves in random direction.
 
-I followed this tutorial during creation of this project: https://www.youtube.com/watch?v=lDTyCYAtQyQ
+
+Learning Objectives
+---
+- Initializing an ECS project
+- Bootstrapping
+
+
+Resources
+---
+- [Unity ECS Basics - Getting Started - With 100,000 Tacos](https://www.youtube.com/watch?v=lDTyCYAtQyQ)
+
 
 Notes
 ---
