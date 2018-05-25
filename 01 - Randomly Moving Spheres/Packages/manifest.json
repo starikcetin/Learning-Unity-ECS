@@ -1,11 +1,9 @@
 {
-    "dependencies": {
-        "com.unity.entities": "0.0.12-preview.1"
-    }, 
-    "registry": "https://staging-packages.unity.com", 
-    "testables": [
-        "com.unity.collections", 
-        "com.unity.entities", 
-        "com.unity.jobs"
-    ]
+  "dependencies": {
+    "com.unity.ads": "exclude",
+    "com.unity.analytics": "exclude",
+    "com.unity.standardevents": "exclude",
+    "com.unity.purchasing": "exclude",
+    "com.unity.entities": "0.0.12-preview.4"
+  }
 }
