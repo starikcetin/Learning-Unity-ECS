@@ -20,7 +20,9 @@ public static class Bootstrap
             typeof(Position),
             typeof(Heading),
             typeof(MoveSpeed),
-            typeof(MoveForward)
+            typeof(MoveForward),
+            typeof(HeadingTarget),
+            typeof(RandomizeHeadingTarget)
         );
     }
 
@@ -47,6 +49,7 @@ public static class Bootstrap
         _entityManager.SetComponentData(arrow, new Position {Value = new float3(0, 0, 0)});
         _entityManager.SetComponentData(arrow, new Heading {Value = heading});
         _entityManager.SetComponentData(arrow, new MoveSpeed {speed = 1});
+        _entityManager.SetComponentData(arrow, new HeadingTarget {Value = heading});
 
         _entityManager.AddSharedComponentData(arrow, _arrowRenderer);
     }
