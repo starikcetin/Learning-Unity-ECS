@@ -3,6 +3,7 @@ This repository includes a bunch of small Unity projects in which I explore and 
 
 - [01 - Randomly Moving Spheres](/01%20-%20Randomly%20Moving%20Spheres)
 - [02 - Wandering Arrows](/02%20-%20Wandering%20Arrows)
+- [03 - Wandering Arrows with Jobs](/03%20-%20Wandering%20Arrows%20with%20Jobs)
 
 ----
 
