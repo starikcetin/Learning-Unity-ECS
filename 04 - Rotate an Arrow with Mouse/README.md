@@ -15,6 +15,6 @@ Notes
 ---
  - The `math.euler` method of `Unity.Mathematics` is throwing `NotImplementedException`. So in `RotateWithMouseInputSystem`, I constructed two different `quaternion`s using `math.angleAxis` and multiplied them using `math.mul`, essentially getting the same result.
 
-  - You can inject `EntityManagers` into systems. That is amazing. The more I play with ECS, the more I come to love it.
+  - You can inject `EntityManager`s into systems. That is amazing. The more I play with ECS, the more I come to love it.
  
  - It would be cool if they added the standard math operators to `quaternion` of `Unity.Mathematics`. I suppose this will come with time, since even some of the methods are yet to be implemented in the library.
