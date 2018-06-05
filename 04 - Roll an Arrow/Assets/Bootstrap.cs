@@ -19,7 +19,9 @@ public static class Bootstrap
             typeof(TransformMatrix),
             typeof(Position),
             typeof(Rotation),
-            typeof(MeshInstanceRenderer)
+            typeof(MeshInstanceRenderer),
+
+            typeof(MouseInputComponent)
         );
     }
 
