@@ -21,7 +21,8 @@ public static class Bootstrap
             typeof(Rotation),
             typeof(MeshInstanceRenderer),
 
-            typeof(MouseInputComponent)
+            typeof(MouseInputComponent),
+            typeof(RotateWithMouseInputComponent)
         );
     }
 

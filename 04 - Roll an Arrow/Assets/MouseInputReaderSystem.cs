@@ -1,4 +1,5 @@
-﻿using Unity.Entities;
+﻿using Unity.Collections;
+using Unity.Entities;
 using UnityEngine;
 
 public class MouseInputReaderSystem : ComponentSystem
@@ -6,7 +7,7 @@ public class MouseInputReaderSystem : ComponentSystem
     private struct Group
     {
         public int Length;
-        public ComponentDataArray<MouseInputComponent> MouseInputComponents;
+        [WriteOnly] public ComponentDataArray<MouseInputComponent> MouseInputComponents;
     }
 
     [Inject] private Group _group;
