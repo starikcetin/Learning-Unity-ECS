@@ -17,11 +17,10 @@ public class MouseInputReaderSystem : ComponentSystem
     {
         var x = Input.GetAxis("Mouse X");
         var y = Input.GetAxis("Mouse Y");
-        var button0Down = Input.GetMouseButton(0);
 
         for (var i = 0; i < _group.Length; i++)
         {
-            _group.MouseInputComponents[i] = new MouseInputComponent(x, y, button0Down);
+            _group.MouseInputComponents[i] = new MouseInputComponent(x, y);
         }
     }
 }
