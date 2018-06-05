@@ -18,3 +18,5 @@ Notes
   - You can inject `EntityManager`s into systems. That is amazing. The more I play with ECS, the more I come to love it.
  
  - It would be cool if they added the standard math operators to `quaternion` of `Unity.Mathematics`. I suppose this will come with time, since even some of the methods are yet to be implemented in the library.
+ 
+ - Mouse input should be written to a single component on a single entity, and not to everyone who needs it. Or maybe a shared component if you are feeling fancy. This should be a simple conversion, maybe I will do it sometime.
