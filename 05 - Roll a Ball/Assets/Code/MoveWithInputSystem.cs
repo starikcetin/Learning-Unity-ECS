@@ -7,7 +7,7 @@ public class MoveWithInputSystem : ComponentSystem
     {
         public int Length;
         public ComponentArray<MoveWithInputComponent> MoveWithInputComponents;
-        public ComponentArray<InputComponent> Inputs;
+        public ComponentArray<InputComponent> InputComponents;
         public ComponentArray<Rigidbody> Rigidbodies;
     }
 
@@ -17,7 +17,7 @@ public class MoveWithInputSystem : ComponentSystem
     {
         for (var i = 0; i < _matched.Length; i++)
         {
-            var input = _matched.Inputs[i];
+            var input = _matched.InputComponents[i];
             var rigidbody = _matched.Rigidbodies[i];
 
             rigidbody.AddForce(new Vector3(input.Horizontal * 5, 0, input.Vertical * 5));

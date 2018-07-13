@@ -6,7 +6,7 @@ public class SpeedLimitSystem : ComponentSystem
     private struct Filter
     {
         public int Length;
-        public ComponentArray<SpeedLimitComponent> SpeedLimits;
+        public ComponentArray<SpeedLimitComponent> SpeedLimitComponents;
         public ComponentArray<Rigidbody> Rigidbodies;
     }
 
@@ -16,7 +16,7 @@ public class SpeedLimitSystem : ComponentSystem
     {
         for (var i = 0; i < _matched.Length; i++)
         {
-            var speedLimit = _matched.SpeedLimits[i].Value;
+            var speedLimit = _matched.SpeedLimitComponents[i].Value;
             var rigidbody = _matched.Rigidbodies[i];
 
             if (rigidbody.velocity.magnitude > speedLimit)
