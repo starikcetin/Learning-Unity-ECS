@@ -11,7 +11,7 @@ Learning Objectives
 
 Resources
 ---
-- [Making a Survival Shooter with Unity ECS](https://www.youtube.com/watch?v=yzhsgaFVpZY&list=PLKERDLXpXl_gABNen5aIlTVQ4AP26_J_-)
+- [Making a Survival Shooter with Unity ECS](https://www.youtube.com/playlist?list=PLKERDLXpXl_gABNen5aIlTVQ4AP26_J_-)
 
 
 Notes
