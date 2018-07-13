@@ -7,7 +7,7 @@ public class InputSystem : ComponentSystem
     private struct Filter
     {
         public int Length;
-        [WriteOnly] public ComponentArray<InputComponent> InputComponents;
+        public ComponentArray<InputComponent> InputComponents;
     }
 
     [Inject] private Filter _matched;
