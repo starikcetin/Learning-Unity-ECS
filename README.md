@@ -1,4 +1,4 @@
-**Notice:** Unity is actively changing their ECS API, so these samples may not work if you have the bleeding edge packages.
+**Notice:** Unity is actively changing their ECS API, so these samples may or may not work if you have the bleeding edge packages.
 
 # Learning Unity ECS #
 This repository includes a bunch of small Unity projects in which I explore and learn Unity's new ECS and Job System.
