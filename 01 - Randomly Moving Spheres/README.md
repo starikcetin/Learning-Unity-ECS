@@ -1,5 +1,5 @@
 # 01 - Randomly Moving Spheres #
-Creating an arbitrary amount of spheres that moves in random direction.
+Creating an arbitrary amount of spheres that move in random directions.
 
 
 Learning Objectives
