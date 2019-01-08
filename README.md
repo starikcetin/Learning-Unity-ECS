@@ -9,6 +9,12 @@ This repository includes a bunch of small Unity projects in which I explore and 
 
 ----
 
+Don't forget to drop a star if this repository helped you!
+
+If you think something is missing, you are more than welcome to send pull requests and open issues.
+
+----
+
 MIT license. Refer to the [LICENSE](https://github.com/starikcetin/Learning-Unity-ECS/blob/master/LICENSE) file.
 
 Copyright (c) 2018 S. Tarık Çetin
