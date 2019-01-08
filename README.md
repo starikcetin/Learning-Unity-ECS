@@ -9,7 +9,7 @@ This repository includes a bunch of small Unity projects in which I explore and 
 
 ----
 
-Don't forget to drop a star if this repository helped you!
+Don't forget to leave a star if this repository helped you!
 
 If you think something is missing, you are more than welcome to send pull requests and open issues.
 
