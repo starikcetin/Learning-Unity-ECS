@@ -1,3 +1,5 @@
+***This repository is outdated due to API depreciation. I am working on a couple of new projects that employ the new APIs. I will put a link to the new repository here once it is ready. Therefore, this repository is now read-only.***
+
 # Learning Unity ECS #
 This repository includes a bunch of small Unity projects in which I explore and learn Unity's new ECS and Job System.
 
