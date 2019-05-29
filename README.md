@@ -1,6 +1,6 @@
-**New repository with up-to-date examples: [Learning-Unity-ECS-2](https://github.com/starikcetin/Learning-Unity-ECS)**
+**New repository with up-to-date examples: [Learning-Unity-ECS-2](https://github.com/starikcetin/Learning-Unity-ECS-2)**
 
-_This repository is outdated due to API depreciation. Please visit the [Learning-Unity-ECS-2](https://github.com/starikcetin/Learning-Unity-ECS) repository for the examples with the up-to-date API._
+_This repository is outdated due to API depreciation. Please visit the [Learning-Unity-ECS-2](https://github.com/starikcetin/Learning-Unity-ECS-2) repository for the examples with the up-to-date API._
 
 ---
 
