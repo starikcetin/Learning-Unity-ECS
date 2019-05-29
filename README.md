@@ -1,4 +1,8 @@
-***This repository is outdated due to API depreciation. I am working on a couple of new projects that employ the new APIs. I will put a link to the new repository here once it is ready. Therefore, this repository is now read-only.***
+**New repository with up-to-date examples: [Learning-Unity-ECS-2](https://github.com/starikcetin/Learning-Unity-ECS)**
+
+_This repository is outdated due to API depreciation. Please visit the [Learning-Unity-ECS-2](https://github.com/starikcetin/Learning-Unity-ECS) repository for the examples with the up-to-date API._
+
+---
 
 # Learning Unity ECS #
 This repository includes a bunch of small Unity projects in which I explore and learn Unity's new ECS and Job System.
